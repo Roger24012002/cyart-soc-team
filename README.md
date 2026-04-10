@@ -65,10 +65,10 @@ Although VirusTotal showed **0 detections**, the domain was classified as malici
 ## Screenshots
 
 ### Phishing Email Sample
-Week2/Screenshots/phishing_email_sample.png
+![Email](Screenshots/phishing_email_sample.png)
 
 ### VirusTotal Analysis
-Week2/Screenshots/virustotal_phishing_check.png
+![VirusTotal](Screenshots/virustotal_phishing_check.png)
 
 ##  References
 - https://attack.mitre.org/  
