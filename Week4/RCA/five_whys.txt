@@ -1,1 +1,16 @@
+Incident: Failed login attempts detected from endpoint.
 
+1. Why did the alert trigger?
+Multiple failed logins occurred.
+
+2. Why were multiple failed logins happening?
+Incorrect credentials were repeatedly entered.
+
+3. Why was account protection weak?
+No strict lockout policy was enforced.
+
+4. Why was detection needed?
+Unauthorized access attempts can lead to compromise.
+
+5. Why improve controls?
+To reduce brute-force risk and strengthen security posture.
