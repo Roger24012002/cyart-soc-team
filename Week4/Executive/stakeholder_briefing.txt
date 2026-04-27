@@ -1,1 +1,1 @@
-
+A simulated cyberattack was conducted in a controlled lab environment to test monitoring and response capabilities. Suspicious login attempts and exploitation activity were detected using Wazuh SIEM. Immediate containment was performed by blocking the attacker IP address. Findings show that centralized monitoring significantly improves incident visibility. Recommended improvements include stronger passwords, account lockout policies, segmentation, and continuous alert tuning.
